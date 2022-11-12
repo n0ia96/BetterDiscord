@@ -1,5 +1,4 @@
-# Cyan Tweaks
-made by n0ia96
+# Cyan Tweaks <small>made by n0ia96</small>
 
 
 ## List of tweaks
