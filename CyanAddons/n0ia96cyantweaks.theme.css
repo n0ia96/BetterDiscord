@@ -8,7 +8,7 @@
  * @updateUrl https://github.com/n0ia96/BetterDiscord/blob/main/CyanAddons/n0ia96cyantweaks.theme.css
  */
 
-@import url('https://raw.githubusercontent.com/n0ia96/BetterDiscord/main/CyanAddons/cyantweaks.css');
+@import url(https://raw.githubusercontent.com/n0ia96/BetterDiscord/main/CyanAddons/cyantweaks.css);
 :root {
     --cyan-background-img: none !important;
     --cyan-newbackground-img: url('https://media.giphy.com/media/31ULxOpIh7GhlTHeOM/giphy.gif');
