@@ -1,3 +1,21 @@
+/**
+ * @name n0ia96's Cyan Tweaks
+ * @description Addon theme for Cyan: Some tweaks for Cyan made by n0ia96
+ * @author Owl#5029
+ * @authorId 894043138128220222
+ * @version 0.1
+ * @source https://github.com/n0ia96/BetterDiscord/tree/main/CyanAddons
+ * @updateUrl https://github.com/n0ia96/BetterDiscord/blob/main/CyanAddons/CyanTweaks.theme.css
+ */
+
+/* Editable Elements */
+:root {
+    --cyan-background-img: none !important;
+    --cyan-newbackground-img: url('https://media.giphy.com/media/31ULxOpIh7GhlTHeOM/giphy.gif');
+}
+
+/* ---------------- DO NOT TOUCH ---------------- */
+
 /* Better background image */
 .container-1eFtFS { 
     background-image: none;
