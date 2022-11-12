@@ -1,9 +1,9 @@
-## Cyan Tweaks
-======
+# Cyan Tweaks
 ###### made by n0ia96
 
+<hl>
 
-#### List of tweaks
+## List of tweaks
 <br>
 * New background image config (you can use gifs)<br>
     ![Background Gif example](https://i.imgur.com/5aI0gvz.gif)
