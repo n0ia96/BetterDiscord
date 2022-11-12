@@ -2,7 +2,7 @@
 
 ## List of tweaks<br>
 * New background image config (you can use gifs)<br>
-![Background Gif example](https://i.imgur.com/5aI0gvz.gifv)<br>
+![Background Gif example](https://i.imgur.com/dyTjELQ.gif)<br>
 
 * Bold usernames<br>
 ![Bold usernames example](https://i.imgur.com/WvcSlDM.png)<br>
