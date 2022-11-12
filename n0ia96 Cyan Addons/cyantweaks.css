@@ -1,15 +1,11 @@
 /**
- * @name Cyan96's Tweaks
+ * @name n0ia96's Cyan Tweaks
  * @description Addon theme for Cyan: Some tweaks for Cyan made by n0ia96
  * @author Owl#5029
  * @authorId 894043138128220222
  * @version 0.1
- * @source https://github.com/n0ia96/BetterDiscord/Cyan96Tweaks
+ * @source https://github.com/DaBluLite/Cyan
  */
-
- :root {
-	--cyan-background-img: none !important;
-}
 
 /* -------------------------------- */
 
@@ -27,7 +23,7 @@
     background-size: 100%;
     background-repeat: repeat;
     background-position: center;
-    background-image: url('https://media.giphy.com/media/31ULxOpIh7GhlTHeOM/giphy.gif');
+    background-image: var(--cyan-newbackground-img);
     filter: brightness(20%) blur(4px) !important;
 }
 
