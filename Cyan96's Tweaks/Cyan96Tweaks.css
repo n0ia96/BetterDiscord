@@ -1,0 +1,110 @@
+/**
+ * @name Cyan96's Tweaks
+ * @description Addon theme for Cyan: Some tweaks for Cyan made by n0ia96
+ * @author Owl#5029
+ * @authorId 894043138128220222
+ * @version 0.1
+ * @source https://github.com/n0ia96/BetterDiscord/Cyan96Tweaks
+ */
+
+ :root {
+	--cyan-background-img: none !important;
+}
+
+/* -------------------------------- */
+
+/* Better background image */
+.container-1eFtFS { 
+    background-image: none;
+}
+.container-1eFtFS::before {
+    content:'';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url('https://media.giphy.com/media/31ULxOpIh7GhlTHeOM/giphy.gif');
+    filter: brightness(20%) blur(4px) !important;
+}
+
+/* -------------------------------- */
+
+/* Bold usernames */
+.username-h_Y3Us {
+    font-weight: 600;
+}
+
+/* -------------------------------- */
+
+/* Unread channels noti */
+div.modeUnread-3Cxepe .content-1gYQeQ::after {
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: .5px 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 0%, rgba(0,0,0,0) 100%);
+    z-index: 1;
+    border-radius: 25px;
+    animation: new-msg .6s alternate-reverse linear infinite;
+}
+@keyframes new-msg {
+    0% {
+        background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 0%, rgba(0,0,0,0) 100%);
+    } 10% {
+        background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 10%, rgba(0,0,0,0) 100%);
+    } 20% {
+        background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 20%, rgba(0,0,0,0) 100%);
+    } 30% {
+        background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 30%, rgba(0,0,0,0) 100%);
+    } 40% {
+        background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 40%, rgba(0,0,0,0) 100%);
+    } 50% {
+        background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 50%, rgba(0,0,0,0) 100%);
+    } 60% {
+        background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 60%, rgba(0,0,0,0) 100%);
+    } 70% {
+        background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 70%, rgba(0,0,0,0) 100%);
+    } 80% {
+        background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 80%, rgba(0,0,0,0) 100%);
+    } 90% {
+        background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 90%, rgba(0,0,0,0) 100%);
+    } 100% {
+        background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 100%, rgba(0,0,0,0) 100%);
+    }
+}
+
+/* -------------------------------- */
+
+/* Animated material mentions */
+.mentioned-Tre-dv {
+    background-color: rgba(255,255,255,0);
+    background-image: linear-gradient(90deg, rgba(255,255,255,.06) 0%, rgba(0,0,0,0) 100%);
+    transition: background-image 1s;
+}
+.mentioned-Tre-dv::before {
+    background-color: rgba(255,255,255,1);
+    box-shadow: 1px 0 0px rgba(255,255,255,0.1);
+    transition: box-shadow .2s;
+}
+.mentioned-Tre-dv::after {
+    display: none;
+}
+.mentioned-Tre-dv:hover {
+    background-image: linear-gradient(90deg, rgba(255,255,255,.1) 0%, rgba(0,0,0,0) 100%);
+    transition: background-image 1s;
+}
+.mentioned-Tre-dv:hover:before {
+    box-shadow: 1px 0 20px rgba(255,255,255,0.9);
+    transition: box-shadow .2s;
+}
+.message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy, .mouse-mode.full-motion .mentioned-Tre-dv:hover {
+    background-color: rgba(255,255,255,0);
+}
