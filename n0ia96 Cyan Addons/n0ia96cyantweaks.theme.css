@@ -4,10 +4,11 @@
  * @author Owl#5029
  * @authorId 894043138128220222
  * @version 0.1
- * @source https://github.com/n0ia96/BetterDiscord/
+ * @source https://github.com/n0ia96/BetterDiscord/blob/main/n0ia96%20Cyan%20Addons/cyantweaks.css
+ * @updateUrl https://github.com/n0ia96/BetterDiscord/blob/main/n0ia96%20Cyan%20Addons/n0ia96cyantweaks.theme.css
  */
 
- @import url();
+ @import url('https://github.com/n0ia96/BetterDiscord/blob/main/n0ia96%20Cyan%20Addons/cyantweaks.css');
  :root {
 	--cyan-background-img: none !important;
     --cyan-newbackground-img: url('https://media.giphy.com/media/31ULxOpIh7GhlTHeOM/giphy.gif');
