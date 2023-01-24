@@ -1,10 +1,10 @@
-##Throughout the time that I've been using BetterDiscord, I've done some fixes and new code snippets to make Discord the way I wanted.
+## Throughout the time that I've been using BetterDiscord, I've done some fixes and new code snippets to make Discord the way I wanted.
 
-####Here I'll share some of them so you guys can enjoy them as well.
+#### Here I'll share some of them so you guys can enjoy them as well.
 
 ----
 
-##Better pings
+## Better pings
 This is one of my latests code snippets
 Basically it changes the red pings of Discord to be... better ahah
 
