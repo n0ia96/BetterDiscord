@@ -8,7 +8,11 @@
 This is one of my latests code snippets
 Basically it changes the red pings of Discord to be... better ahah
 
-```
+<img src="https://i.imgur.com/srawC50.gif"></img>
+<details><summary><u><b>code</b></u></summary>
+<p>
+
+```css
 /* - BETTER PINGS - */
 .theme-dark .guilds-2JjMmN .listItem-3SmSlK .lowerBadge-3WTshO, .theme-dark .guilds-2JjMmN .listItem-3SmSlK .upperBadge-1V6Iyi {
     --pad: 100%;
@@ -107,3 +111,5 @@ div.numberBadge-37OJ3S.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv::after {
 }
 ```
 (Just paste the code into your BetterDiscord custom CSS file)
+</p>
+</details>
