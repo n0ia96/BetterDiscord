@@ -1,13 +1,22 @@
-## Throughout the time that I've been using BetterDiscord, I've done some fixes and new code snippets to make Discord the way I wanted.
+| BetterDiscord | `code snippets`                |
+| :---: | :---: |
+<p>
+<pre>
+Throughout the time that I've been using BetterDiscord,
+I've done some fixes and added new code snippets to make 
+Discord the way I wanted.
+</pre>
+</p>
 
-#### Here I'll share some of them so you guys can enjoy them as well.
 
-----
+Here I'll share some of them so you guys can enjoy them as well.
+
+<sub></\></\></\></\></\></\></\></\></\></\></\></\></\></sub>
 
 ## Better pings
 This is one of my latests code snippets
-Basically it changes the red pings of Discord to be... better ahah
-
+Basically it changes the red pings of Discord to be... better ahah</br>
+<sup>eg.:</sup></br>
 <img src="https://i.imgur.com/srawC50.gif"></img>
 <details><summary><u><b>code</b></u></summary>
 <p>
