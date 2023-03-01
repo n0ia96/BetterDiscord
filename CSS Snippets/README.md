@@ -1,18 +1,3 @@
-<style>
-    details {
-        font-family: Consolas;
-        margin-top: -15px;
-        font-size: 12px;
-        cursor: pointer; 
-    }
-    details summary::marker {
-        content: "";
-    }
-    .imagem {
-        width: 90px;
-    }
-</style>
-
 | BetterDiscord | `code snippets`                |
 | :---: | :---: |
 <p>
@@ -31,7 +16,7 @@ Here I'll share some of them so you guys can enjoy them as well.
 ## <u>Better pings</u>
 This is one of my latests code snippets. <br>
 Basically it changes the red pings of Discord to be... animated (?)</br></br>
-<img class="imagem" src="https://i.imgur.com/srawC50.gif"></img>
+<img src="https://i.imgur.com/srawC50.gif"></img>
 <details><summary><u>click to view code</u></summary>
 <p>
 
