@@ -4,8 +4,8 @@
 THIS IS NOT SUPPOSE TO USE ALONE, !!THIS IS A THEME ADDON!!
 CHECK OUT "OMOLED" BY @tiredmala ON GITHUB
 
-YOU CAN ADD '@import '
-TO YOUR CODE
+YOU CAN ADD '@import url(https://githubraw.com/n0ia96/BetterDiscord/main/Addons/OMOLED/OMOLEDtweaks.theme.css)'
+AT THE BEGGINING OF YOUR CUSTOM.CSS FILE
 
 OR DOWNLOAD THE RAW CSS FILE AND PASTE IT ON YOUR THEMES FOLDER
 
@@ -19,6 +19,7 @@ OR DOWNLOAD THE RAW CSS FILE AND PASTE IT ON YOUR THEMES FOLDER
     --scrollbar-auto-track: var(--channeltextarea-background) !important;
 
     --background-secondary: var(--dark-secondary) !important;
+    --__header-bar-background: var(--dark-secondary) !important;
     --background-tertiary: var(--channeltextarea-background) !important;
 }
 
