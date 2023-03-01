@@ -16,11 +16,11 @@ OR DOWNLOAD THE RAW CSS FILE AND PASTE IT ON YOUR THEMES FOLDER
     --brand-500: #334c80;
     --brand-500-custom: #263c6a;
     --button-secondary-background-hover: #334c80;
-    --scrollbar-auto-track: var(--channeltextarea-background) !important;
+    --scrollbar-auto-track: var(--channeltextarea-background);
 
-    --background-secondary: var(--dark-secondary) !important;
-    --__header-bar-background: var(--dark-secondary) !important;
-    --background-tertiary: var(--channeltextarea-background) !important;
+    --background-secondary: var(--dark-secondary);
+    --__header-bar-background: var(--dark-secondary);
+    --background-tertiary: var(--channeltextarea-background);
 }
 
 /* fix awful border on server list */
