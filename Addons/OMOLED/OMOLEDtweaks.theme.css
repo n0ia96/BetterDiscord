@@ -1,0 +1,106 @@
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THIS IS NOT SUPPOSE TO USE ALONE, !!THIS IS A THEME ADDON!!
+CHECK OUT "OMOLED" BY @tiredmala ON GITHUB
+
+YOU CAN ADD '@import '
+TO YOUR CODE
+
+OR DOWNLOAD THE RAW CSS FILE AND PASTE IT ON YOUR THEMES FOLDER
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+:root{
+    --brand-500: #334c80;
+    --brand-500-custom: #263c6a;
+    --button-secondary-background-hover: #334c80;
+    --scrollbar-auto-track: var(--channeltextarea-background) !important;
+
+    --background-secondary: var(--dark-secondary) !important;
+    --background-tertiary: var(--channeltextarea-background) !important;
+}
+
+/* fix awful border on server list */
+:root .guilds-2JjMmN {
+	border-radius: 0px;
+}
+
+/* fix bg color of friends list */
+.theme-dark .scroller-WSmht3 {
+	background-color: var(--dark-secondary);
+}
+
+/* fix bg color of friend side profile */
+.none-2-_0dP .scrollerBase-_bVAAt {
+	background-color: var(--dark-secondary);
+}
+
+.userProfileInner-3F03PX:before {
+	background-color: var(--dark-secondary);
+}
+
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+    background-color: var(--brand-500-custom);
+}
+
+.theme-dark .mentioned-Tre-dv .mention.interactive:hover, .theme-light .mentioned-Tre-dv .mention.interactive:hover {
+    text-decoration: none;
+}
+
+/* Better mention */
+.messageContent-2t3eCI {
+    padding: .15vw 0;
+}
+.mention {
+    background: linear-gradient(0deg, rgba(255,255,255,.1) 0%, rgba(0,0,0,0) 100%) !important;
+    text-shadow: 0 0 2px rgba(255,255,255,.0), 0 0 6px rgba(255,255,255,.0), 0 0 12px rgba(255,255,255,.0);
+    opacity: 1;
+    padding: 1px 8px;
+    border-radius: 16px;
+    margin: 0 0;
+    transition: background .3s ease, text-shadow .3s ease;
+}
+.mention:hover {
+    background: linear-gradient(0deg, rgba(255,255,255,.15) 5%, rgba(0,0,0,0) 100%) !important;
+    text-shadow: 0 0 2px rgba(255,255,255,.6), 0 0 6px rgba(255,255,255,.5), 0 0 12px rgba(255,255,255,.4);
+    transition: background .3s ease, text-shadow .3s ease;
+}
+.repliedTextPreview-1bvxun {
+    padding: 5px 0;
+}
+.spoilerText-27bIiA {
+    border-radius: 16px;
+}
+
+/* Animated material mentions */
+.mentioned-Tre-dv {
+    background-color: rgba(255,255,255,0);
+    background-image: linear-gradient(90deg, rgba(255,255,255,.06) 0%, rgba(0,0,0,0) 100%);
+    transition: background-image 1s;
+}
+.mentioned-Tre-dv::before {
+    background-color: rgba(255,255,255,1);
+    box-shadow: 1px 0 0px rgba(255,255,255,0.1);
+    transition: box-shadow .2s;
+}
+.mentioned-Tre-dv::after {
+    display: none;
+}
+.mentioned-Tre-dv:hover {
+    background-image: linear-gradient(90deg, rgba(255,255,255,.1) 0%, rgba(0,0,0,0) 100%);
+    transition: background-image 1s;
+}
+.mentioned-Tre-dv:hover:before {
+    box-shadow: 1px 0 20px rgba(255,255,255,0.9);
+    transition: box-shadow .2s;
+}
+.message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy, .mouse-mode.full-motion .mentioned-Tre-dv:hover {
+    background-color: rgba(255,255,255,0);
+}
+
+/* Speaker circle above camera bug */
+.videoWrapper-3rtb_V ~ .border-2Vy6FN.speaking-7QZEkv::before {
+    z-index: -1;
+}
